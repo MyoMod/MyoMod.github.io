@@ -89,27 +89,27 @@ sections:
     section_id: timeline
     title: Milestones
     background_style: bg-dark text-primary
-    last_image: assets/img/timeline-end.png
+    # last_image: assets/img/timeline-end.png
     actions:
-      - image: assets/img/portfolio/thumbnails/1.jpg
+      - image: assets/img/timeline/hessen_ideen_logo.png
         title: >+
           July 2024 - today
           Receiving StartUp grant 
         text: >-
-          We receive a six-month grant from the Hessian Ministry of Science and Research, Art and Culture in Germany as part of the 'Hessen Ideen Stipendium'. 
-      - image: assets/img/portfolio/thumbnails/1.jpg
+          We are receiving a six-month grant from the Hessian Ministry of Science and Research, Art and Culture in Germany as part of the 'Hessen Ideen Stipendium'. 
+      - image: assets/img/timeline/virtualProthesisWithData.png
         title: >+
           March 2024
           Multichannel EMG evaluation
         text: >-
           With new hardware consisting of a new sensing board and a central processing hub EMG data can be interpreted in real time.
-      - image: assets/img/portfolio/thumbnails/1.jpg
+      - image: assets/img/timeline/ourFilterTime.png
         title: >+
           November 2023
           First EMG sensor
         text: >-
           Completion of the first EMG measureing prototype demonstrating capability to record EMG signals with good quality using simple hardware and digital filtering
-      - image: assets/img/portfolio/thumbnails/2.jpg
+      - image: assets/img/timeline/hsFulda.png
         title: >+
           November 2023 - May 2024
           Master Thesis
@@ -117,9 +117,9 @@ sections:
           Beginning of the Master Thesis under the title 
           'Development of a system for evaluating electromyographic 
           signals to control a forearm prosthesis' 
-      - image: assets/img/portfolio/thumbnails/2.jpg
+      - image: assets/img/MyoMod_basic.png
         title: >+
-          Fall 2023
+          Fall 2023  
           The idea 
         text: >-
           Idea of an Open Source myo-prothesis targeted at people that can't
