@@ -132,11 +132,11 @@ sections:
     members:
       - title: Rasmus Brandt
         text: Orthopaedic technician
-        image: assets/img/members/person1.jpg
+        image: assets/img/members/Rasmus.jpg
         url: '#'
       - title: Leon Farchau
         text: M.Eng. Embedded Systems
-        image: assets/img/members/person2.jpg
+        image: assets/img/members/Leon_Farchau.jpg
         url: '#'
   - type: contact.html
     section_id: contacts
