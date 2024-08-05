@@ -1,10 +1,10 @@
 ---
 layout: home
 header:
-  title: YOUR FAVORITE SOURCE OF FREE BOOTSTRAP THEMES
+  title: An Prosthesis platform made for the community
   text: >
-    Start Bootstrap can help you build better websites using the Bootstrap
-    framework! Just download a theme and start customizing, no strings attached!
+    MyoMod is a startup based in Germany with the goal of delivering advanced prosthesis
+    to as many people as possible.
   action: # action button is optional
     label: Find Out More
     url: '#about'
