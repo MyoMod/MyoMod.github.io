@@ -93,18 +93,37 @@ sections:
     actions:
       - image: assets/img/portfolio/thumbnails/1.jpg
         title: >+
-          2017-2018
-          **Humble Beginnings**
+          July 2024 - today
+          Receiving StartUp grant 
         text: >-
-          We begun with small group of people willing to work hard and make our
-          teaching skills worth , in front of all others!
+          We receive a six-month grant from the Hessian Ministry of Science and Research, Art and Culture in Germany as part of the 'Hessen Ideen Stipendium'. 
+      - image: assets/img/portfolio/thumbnails/1.jpg
+        title: >+
+          March 2024
+          Multichannel EMG evaluation
+        text: >-
+          With new hardware consisting of a new sensing board and a central processing hub EMG data can be interpreted in real time.
+      - image: assets/img/portfolio/thumbnails/1.jpg
+        title: >+
+          November 2023
+          First EMG sensor
+        text: >-
+          Completion of the first EMG measureing prototype demonstrating capability to record EMG signals with good quality using simple hardware and digital filtering
       - image: assets/img/portfolio/thumbnails/2.jpg
         title: >+
-          November 2019
-          An Coaching started
+          November 2023 - May 2024
+          Master Thesis
         text: >-
-          We started to gather like minded people and started our stategies
-          and future plans to them. As a result , interested people joined us!
+          Beginning of the Master Thesis under the title 
+          'Development of a system for evaluating electromyographic 
+          signals to control a forearm prosthesis' 
+      - image: assets/img/portfolio/thumbnails/2.jpg
+        title: >+
+          Fall 2023
+          The idea 
+        text: >-
+          Idea of an Open Source myo-prothesis targeted at people that can't
+          afford currently available high-tech prosthesis.
 
   - type: members.html
     section_id: members
@@ -131,8 +150,8 @@ sections:
     - title: E-Mail
       icon: bi-envelope-fill
       url: mailto:info@myomod.org
-    - title: LinkedIn
-      icon: bi-cone-striped
+    - title: not yet available
+      icon: bi-linkedin
       url: '#'
     - title: Github
       icon: bi-github
