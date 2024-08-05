@@ -1,14 +1,24 @@
-url: http://kirbyt.github.io
-baseurl: /timeline-jekyll-theme
+# Site settings
+title: Your Title Here
+description: > # this means to ignore newlines until "baseurl:"
+repository: vvalchev/creative-theme-jekyll-new
+baseurl: "/creative-theme-jekyll-new/" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+author: Copyright &copy; 2019 - Start Bootstrap
+lang: en_US
 
-# Site Settings
-title: Timeline
-description: "Timeline is multipurpose, single page Jekyll theme that includes a timeline section."
-keywords: "jekyll, theme"
-google-tracking-id:
-
-# Career Settings
-# Default career thumbnail image.
-career-img: "img/timeline/default.jpg"
-
-exclude: ["Rakefile", "LICENSE", "readme.markdown"]
+# Build settings
+safe: true # always trues on github-pages, disables _plugins/
+markdown: kramdown
+sass:
+  indentWidth: 4
+  style: compressed
+  precision: 10
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - build-in-docker.sh
+  - README.md
