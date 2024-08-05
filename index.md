@@ -1,10 +1,9 @@
 ---
 layout: home
 header:
-  title: An Prosthesis platform made for the community
+  title: An prosthesis platform made for the community
   text: >
-    MyoMod is a startup based in Germany with the goal of delivering advanced prosthesis
-    to as many people as possible.
+    MyoMod is a startup based in Germany with the goal of delivering advanced myoelectric prosthesis to as many people as possible, that can't afford the prothesis avaialbe at the moment.
   action: # action button is optional
     label: Find Out More
     url: '#about'
@@ -13,7 +12,7 @@ header:
 sections:
   - type: call-to-action.html
     section_id: about
-    background_style: bg-primary
+    background_style: bg-dark
     title: We've got what you need!
     text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
     actions:
