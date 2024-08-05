@@ -13,7 +13,11 @@ sections:
     section_id: about
     background_style: bg-dark
     title: Our Mission
-    text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
+    text: We are a small startup in our founding phase developing prosthetic solutions. It is our belief that myoelectric control and its associated benefits, should be widely available.
+    Therefore our Designs have to be extremely robust, very affordable and easy to repair. 
+    
+    By being modular by design, MyoMod can be quickly adapted to different pathologies.
+
     actions:
       - title: Get Started!
         url: '#page-top'
@@ -119,7 +123,8 @@ sections:
           signals to control a forearm prosthesis' 
       - image: assets/img/MyoMod_basic.png
         title: >+
-          Fall 2023  
+          Fall 2023
+
           The idea 
         text: >-
           Idea of an Open Source myo-prothesis targeted at people that can't
