@@ -8,7 +8,6 @@ header:
     label: Find Out More
     url: '#about'
 
-
 sections:
   - type: call-to-action.html
     section_id: about
@@ -88,7 +87,7 @@ sections:
 
   - type: timeline.html
     section_id: timeline
-    title: Major Achievements!
+    title: Milestones
     background_style: bg-dark text-primary
     last_image: assets/img/timeline-end.png
     actions:
@@ -120,21 +119,20 @@ sections:
         text: M.Eng. Embedded Systems
         image: assets/img/members/person2.jpg
         url: '#'
-
   - type: contact.html
     section_id: contacts
-    title: Let's Get In Touch!
+    title: Contact
     text: >-
-      Ready to start your next project with us? Give us a call or send us an email
-      and we will get back to you as soon as possible!
+      If you are interested in joining our mission or just want to chat with us, 
+      we would be glad if you reached out to us!
     actions:
-    - title: +1 (202) 555-014
-      icon: bi-telephone-fill
+    # - title: +1 (202) 555-014
+    #   icon: bi-telephone-fill
     - title: E-Mail
       icon: bi-envelope-fill
-      url: mailto:contact@yourwebsite.com
-    - title: Twitter
-      icon: bi-twitter
+      url: mailto:info@myomod.org
+    - title: LinkedIn
+      icon: bi-cone-striped
       url: '#'
     - title: Github
       icon: bi-github
