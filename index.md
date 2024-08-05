@@ -20,32 +20,32 @@ sections:
         url: '#page-top'
         class: btn-light
 
-  - type: services.html
-    section_id: services
-    #background_style: bg-info
-    title: At Your Service
-    services:
-      - title: Sturdy Templates
-        text: Our templates are updated regularly so they don't break.
-        icon: bi-gem text-info
-        url: https://startbootstrap.com/
-      - title: Ready to Ship
-        text: You can use this theme as is, or you can make changes!
-        icon: bi-rocket-takeoff
-      - title: Up to Date
-        text: We update dependencies to keep things fresh.
-        icon: bi-activity
-      - title: Made with Love
-        text: You have to make your websites with love these days!
-        icon: bi-heart-fill
-      - title: Other 1
-        text: Some not-so long text here.
-        icon: bi-emoji-heart-eyes
-      - title: Other 2
-        text: Some not-so long text here.
-        icon: bi-emoji-sunglasses-fill
+  # - type: services.html
+  #   section_id: services
+  #   #background_style: bg-info
+  #   title: At Your Service
+  #   services:
+  #     - title: Sturdy Templates
+  #       text: Our templates are updated regularly so they don't break.
+  #       icon: bi-gem text-info
+  #       url: https://startbootstrap.com/
+  #     - title: Ready to Ship
+  #       text: You can use this theme as is, or you can make changes!
+  #       icon: bi-rocket-takeoff
+  #     - title: Up to Date
+  #       text: We update dependencies to keep things fresh.
+  #       icon: bi-activity
+  #     - title: Made with Love
+  #       text: You have to make your websites with love these days!
+  #       icon: bi-heart-fill
+  #     - title: Other 1
+  #       text: Some not-so long text here.
+  #       icon: bi-emoji-heart-eyes
+  #     - title: Other 2
+  #       text: Some not-so long text here.
+  #       icon: bi-emoji-sunglasses-fill
 
-  # - type: portfolio.html
+  # # - type: portfolio.html
   #   # this section has always ID 'portfolio'
   #   #section_id: portfolio
   #   #background_style: bg-dark
@@ -109,32 +109,16 @@ sections:
 
   - type: members.html
     section_id: members
-    title: Our Crew!
+    title: We are
     background_style: bg-info text-white
     members:
-      - title: Christina M. Aponte
-        text: Singer and Songwriter
+      - title: Rasmus Brandt
+        text: Orthopaedic technician
         image: assets/img/members/person1.jpg
         url: '#'
-      - title: Gary D. Stevens
-        text: Bass guitar.
+      - title: Leon Farchau
+        text: M.Eng. Embedded Systems
         image: assets/img/members/person2.jpg
-        url: '#'
-      - title: Devon J. Fletcher
-        text: Lead guitar.
-        image: assets/img/members/person3.jpg
-        url: '#'
-      - title: Todd E. Anderson
-        text: Drums, percussion.
-        image: assets/img/members/person5.jpg
-        url: '#'
-      - title: Daniel T. Riley
-        text: Musician, songwriter, producer.
-        image: assets/img/members/person6.jpg
-        url: '#'
-      - title: Ella P. Walter
-        text: PR.
-        image: assets/img/members/person7.jpg
         url: '#'
 
   - type: contact.html
@@ -152,8 +136,8 @@ sections:
     - title: Twitter
       icon: bi-twitter
       url: '#'
-    - title: Facebook
-      icon: bi-facebook
+    - title: Github
+      icon: bi-github
       url: '#'
 
 ---
