@@ -3,7 +3,7 @@ layout: home
 header:
   title: A prosthesis platform made for the community
   text: >
-    MyoMod is a startup based in Germany, dedicated to making advanced myoelectric prostheses accessible to as many people as possible worldwide. 
+    MyoMod is a startup based in Germany, dedicated to making advanced myoelectric prosthesis accessible to as many people as possible worldwide. 
   action: # action button is optional
     label: Find Out More
     url: '#about'
@@ -127,7 +127,7 @@ sections:
 
           The idea 
         text: >-
-          Idea of an Open Source myo-prothesis targeted at people that can't
+          Idea of an Open Source myo-prosthesis targeted at people that can't
           afford currently available high-tech prosthesis.
 
   - type: members.html
