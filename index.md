@@ -160,6 +160,6 @@ sections:
       url: '#'
     - title: Github
       icon: bi-github
-      url: '#'
+      url: 'https://github.com/MyoMod'
 
 ---
