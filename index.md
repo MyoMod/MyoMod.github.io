@@ -97,35 +97,39 @@ sections:
     actions:
       - image: assets/img/timeline/hessen_ideen_logo.png
         title: >+
-          July 2024 - today
-          Receiving StartUp grant 
+          July 2024 - today<br>
+          ---<br>
+          **Receiving StartUp grant**
         text: >-
           We are receiving a six-month grant from the Hessian Ministry of Science and Research, Art and Culture in Germany as part of the 'Hessen Ideen Stipendium'. 
       - image: assets/img/timeline/virtualProthesisWithData.png
         title: >+
-          March 2024
-          Multichannel EMG evaluation
+          March 2024<br>
+          ---<br>
+          **Multichannel EMG evaluation**
         text: >-
           With new hardware consisting of a new sensing board and a central processing hub EMG data can be interpreted in real time.
       - image: assets/img/timeline/ourFilterTime.png
         title: >+
-          November 2023
-          First EMG sensor
+          November 2023<br>
+          ---<br>
+          **First EMG sensor**
         text: >-
           Completion of the first EMG measureing prototype demonstrating capability to record EMG signals with good quality using simple hardware and digital filtering
       - image: assets/img/timeline/hsFulda.png
         title: >+
-          November 2023 - May 2024
-          Master Thesis
+          November 2023 - May 2024<br>
+          ---<br>
+          **Master Thesis**
         text: >-
           Beginning of the Master Thesis under the title 
           'Development of a system for evaluating electromyographic 
           signals to control a forearm prosthesis' 
       - image: assets/img/MyoMod_basic.png
         title: >+
-          Fall 2023
-
-          The idea 
+          Fall 2023<br>
+          ---<br>
+          **The idea** 
         text: >-
           Idea of an Open Source myo-prosthesis targeted at people that can't
           afford currently available high-tech prosthesis.
