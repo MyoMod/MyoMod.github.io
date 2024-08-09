@@ -150,6 +150,7 @@ sections:
   - type: contact.html
     section_id: contacts
     title: Contact
+    background_style: bg-white
     text: >-
       If you are interested in joining our mission or just want to chat with us, 
       we would be glad if you reached out to us!
