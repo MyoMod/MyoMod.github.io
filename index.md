@@ -160,9 +160,12 @@ sections:
     - title: E-Mail
       icon: bi-envelope-fill
       url: mailto:info@myomod.org
-    - title: not yet available
-      icon: bi-linkedin
-      url: '#'
+    - title: Discord
+      icon: bi-discord
+      url: 'https://discord.gg/W94UgY5K'
+    - title: Twitter/X
+      icon: bi-twitter
+      url: 'https://x.com/MyoMod_org'
     - title: Github
       icon: bi-github
       url: 'https://github.com/MyoMod'
