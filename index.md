@@ -162,7 +162,7 @@ sections:
       url: mailto:info@myomod.org
     - title: Discord
       icon: bi-discord
-      url: 'https://discord.gg/W94UgY5K'
+      url: 'https://discord.gg/ZzFEKXZXQP'
     - title: Twitter/X
       icon: bi-twitter
       url: 'https://x.com/MyoMod_org'
