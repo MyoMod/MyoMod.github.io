@@ -143,6 +143,10 @@ sections:
         text: Orthopaedic technician
         image: assets/img/members/Rasmus.jpg
         url: '#'
+      - title: Sarah Kamal
+        text: Master's in Management
+        image: assets/img/members/SarahImageWebsite.png
+        url: '#'
       - title: Leon Farchau
         text: M.Eng. Embedded Systems
         image: assets/img/members/Leon_Farchau.jpg
