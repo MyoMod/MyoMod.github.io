@@ -170,6 +170,10 @@ sections:
     - title: Twitter/X
       icon: bi-twitter
       url: 'https://x.com/MyoMod_org'
+    - title: LinkedIn
+      icon: bi-linkedin
+      url: 'https://www.linkedin.com/company/myomodprosthetics/'
+      target: _blank
     - title: Github
       icon: bi-github
       url: 'https://github.com/MyoMod'
