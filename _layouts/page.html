@@ -24,7 +24,9 @@ layout: base
 {% if content != "" %}
 <section class="page-section {{ page.background_style }}">
   <div class="container">
-    {{ content }}
+    <div class="{% if page.background_style contains 'bg-dark' %}text-white{% endif %}">
+      {{ content }}
+    </div>
   </div>
 </section>
 {% endif %}

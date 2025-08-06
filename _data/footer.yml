@@ -1,5 +1,10 @@
 copyright: '&copy; MyoMod'
 links:
-  - text: Privacy | Terms & Conditions | Imprint | Cookie Policy
-    url: '#'
-    new_window: true
+  - text: Privacy
+    url: '/privacy.html'
+  - text: Terms
+    url: '/terms.html'
+  - text: Imprint
+    url: '/imprint.html'
+  - text: Accessibility
+    url: '/accessibility.html'
