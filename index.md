@@ -6,9 +6,17 @@ header:
     MyoMod is a startup based in Germany, dedicated to making advanced myoelectric prosthesis accessible to as many people as possible worldwide. 
   action: # action button is optional
     label: Find Out More
-    url: '#about'
+    url: '#video'
 
 sections:
+  - type: video-section.html
+    section_id: video
+    background_style: bg-light
+    title: Focus on intuitve myoelectric control
+    video_url: assets/myomod-bracelet-v1.0.mp4
+    text: >
+      At MyoMod, we believe that the way you control your prosthesis is one of the most important factors in determining whether it truly supports you in daily life—or ends up not being used at all. That’s why we’re initially focusing on developing intuitive control algorithms. To support this, we’ve built an armband equipped with the same EMG sensors that will later be used in the prosthesis. This allows us to test and refine the algorithms in a virtual environment and collect high-quality training data efficiently.
+
   - type: call-to-action.html
     section_id: about
     background_style: bg-dark

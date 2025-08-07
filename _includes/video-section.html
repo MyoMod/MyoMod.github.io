@@ -1,0 +1,27 @@
+<section class="page-section {{ section.background_style }}" id="{{ section.section_id }}">
+  <div class="container px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 align-items-center">
+      <!-- Video Column -->
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <div class="video-container">
+          <video class="w-100 h-auto" controls autoplay muted loop playsinline>
+            <source src="{{ section.video_url }}" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+      
+      <!-- Text Column -->
+      <div class="col-lg-6">
+        <div class="ps-lg-4">
+          <h2 class="mt-0 mb-3">{{ section.title }}</h2>
+          <hr class="divider border border-primary border-2 text-start">
+          <div class="mb-4">{{ section.text | markdownify }}</div>
+          {% if section.actions %}
+            {% include actions.html actions=section.actions %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
