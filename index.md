@@ -87,6 +87,13 @@ sections:
     background_style: bg-dark text-primary
     # last_image: assets/img/timeline-end.png
     actions:
+      - image: assets/img/timeline/float.png
+        title: >+
+          August 2025<br>
+          ---<br>
+          **Gamified trainigdata collection**
+        text: >-
+          The student founded gamestudio MouseWorks has create Float as part of one of their classes. Float is a lovely mixed reality experience where you help the Pookis to peaceful harmony and while you're doing this you can collect valueable training data.
       - image: assets/img/timeline/armband.jpg
         title: >+
           April 2025<br>
