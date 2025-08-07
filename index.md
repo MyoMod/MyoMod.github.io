@@ -48,10 +48,9 @@ sections:
   #       text: Some not-so long text here.
   #       icon: bi-emoji-sunglasses-fill
 
-  # # - type: portfolio.html
-  #   # this section has always ID 'portfolio'
-  #   #section_id: portfolio
-  #   #background_style: bg-dark
+  # - type: portfolio.html
+  #   section_id: portfolio
+  #   background_style: bg-dark
   #   projects:
   #     - title: Project 1
   #       text: This is a very short project description.
@@ -81,13 +80,6 @@ sections:
   #       icon: 6.jpg
   #       url: '#'
 
-  # - type: aside.html
-  #   section_id: aside
-  #   title: Free Download at Start Bootstrap!
-  #   actions:
-  #     - title: Download Now!
-  #       url: https://startbootstrap.com/themes/creative/
-  #       class: btn-light
 
   - type: timeline.html
     section_id: timeline
@@ -95,11 +87,18 @@ sections:
     background_style: bg-dark text-primary
     # last_image: assets/img/timeline-end.png
     actions:
+      - image: assets/img/timeline/hessian-ai-logo.png
+        title: >+
+          January 2025 - June 2025<br>
+          ---<br>
+          **Receiving Lean AI Startup Funding**
+        text: >-
+          We are receiving the AI focused Lean AI Startup Funding from hessian.ai to further the development of our ML based control algorithm that will allow a intuitve control of the prosthesis. 
       - image: assets/img/timeline/hessen_ideen_logo.png
         title: >+
-          July 2024 - today<br>
+          July 2024 - December 2024<br>
           ---<br>
-          **Receiving StartUp grant**
+          **Receiving Hessen Ideen Stipendium**
         text: >-
           We are receiving a six-month grant from the Hessian Ministry of Science and Research, Art and Culture in Germany as part of the 'Hessen Ideen Stipendium'. 
       - image: assets/img/timeline/virtualProthesisWithData.png
@@ -134,6 +133,15 @@ sections:
           Idea of an Open Source myo-prosthesis targeted at people that can't
           afford currently available high-tech prosthesis.
 
+
+  # - type: aside.html
+  #   section_id: register
+  #   title: Register for EMG Armband
+  #   actions:
+  #     - title: Register!
+  #       url: #
+  #       class: btn-light
+
   - type: members.html
     section_id: members
     title: We are
@@ -151,6 +159,7 @@ sections:
         text: M.Eng. Embedded Systems
         image: assets/img/members/Leon_Farchau.jpg
         url: '#'
+
   - type: contact.html
     section_id: contacts
     title: Contact
