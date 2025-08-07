@@ -87,6 +87,13 @@ sections:
     background_style: bg-dark text-primary
     # last_image: assets/img/timeline-end.png
     actions:
+      - image: assets/img/timeline/armband.jpg
+        title: >+
+          April 2025<br>
+          ---<br>
+          **First prototype of EMG Armband**
+        text: >-
+          We've created the first prototype of our EMG Armband that uses the same EMG-Sensors as the final prosthesis. This allows us to easily gather training data for our control algorithm. 
       - image: assets/img/timeline/hessian-ai-logo.png
         title: >+
           January 2025 - June 2025<br>
