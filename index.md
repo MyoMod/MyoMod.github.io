@@ -25,7 +25,7 @@ sections:
     background_style: bg-dark
     title: Our Mission
     text: > 
-      We are a small startup in our founding phase developing prosthetic solutions. It is our belief that myoelectric control and its associated benefits, should be widely available. We thereby focus on regions without proper health insurance and care infrastructure.
+      We are a startup in our founding phase developing prosthetic solutions. It is our belief that myoelectric control and its associated benefits, should be widely available. We thereby focus on regions without proper health insurance and care infrastructure.
       Therefore our Designs have to be extremely robust, very affordable and easy to repair. 
 
       Being modular by design, MyoMod can be quickly adapted to different pathologies.
