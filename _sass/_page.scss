@@ -5,3 +5,8 @@
 .page-section-smaller {
   padding: 2rem 0;
 }
+
+/* Reduce spacing above the image-intro section specifically */
+section#image-intro {
+  padding-top: 2rem; /* was inherited from .page-section (larger) */
+}

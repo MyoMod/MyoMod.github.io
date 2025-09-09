@@ -15,10 +15,22 @@ sections:
     title: Focus on intuitive myoelectric control
     video_url: assets/myomod-bracelet-v1.0.mp4
     text: >
-      At MyoMod, we believe that the way you control your prosthesis is one of the most important factors in determining whether it truly supports you in daily life—or ends up not being used at all. That’s why we’re initially focusing on developing intuitive control algorithms. To support this, we’ve built an armband equipped with the same EMG sensors that will later be used in the prosthesis. This allows us to test and refine the algorithms in a virtual environment and collect high-quality training data efficiently.
+      At MyoMod, we believe that the way you control your prosthesis is one of the most important factors in determining whether it truly supports you in daily life—or ends up not being used at all. That’s why we’re initially focusing on developing the intuitive control algorithm for our prosthes. To support this, we’ve built an armband equipped with the same EMG sensors that will later be used in the prosthesis. This allows us to test and refine the algorithms in a virtual environment and collect high-quality training data efficiently.
+
+  - type: image-section.html
+    section_id: image-intro
+    background_style: bg-light
+    title: VR-based Gamified Data Collection
+    image_url: assets/img/floatWithLogo.jpg
+    image_alt: Placeholder illustration
+    text: >
+      Building intuitive prosthetics takes data, lots of it. That’s why the student team MouseWorks from HNU created Float, a VR game where you help the Pookis restore their shattered floating kingdom. Every move you make while wearing our MyoMod Bracelet generates valuable data, bringing us closer to prostheses that are truly intuitive for everyone.
       <br>
       <br>
-      <a class="btn btn-primary btn-xl" href="mailto:info@myomod.org?subject=EMG Training Data Collection Signup&body=Hi MyoMod team,%0A%0AI am interested in participating in the EMG training data collection using the EMG Armband and Float experience. Please let me know how I can get involved.%0A%0AThank you!">Sign up for data collection</a>
+      Be part of the community making it possible - sign up and start playing today.
+      <br>
+      <br>
+      <a id="btn-float-signup" class="btn btn-primary" href="mailto:info@myomod.org?subject=EMG Training Data Collection Signup&body=Hi MyoMod team,%0A%0AI am interested in participating in the EMG training data collection using the EMG Armband and Float. Please let me know how I can get involved.%0A%0AThank you!">Sign up for data collection</a>
 
   - type: call-to-action.html
     section_id: about
@@ -40,6 +52,9 @@ sections:
   #   title: At Your Service
   #   services:
   #     - title: Sturdy Templates
+
+
+      
   #       text: Our templates are updated regularly so they don't break.
   #       icon: bi-gem text-info
   #       url: https://startbootstrap.com/

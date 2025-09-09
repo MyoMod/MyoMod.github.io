@@ -1,0 +1,59 @@
+/* Button with image background */
+.btn.btn-image-bg {
+  background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('/assets/img/backgrounds/image-from-rawpixel-id-1199650-jpeg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff !important;
+  border-color: transparent !important;
+  background-color: transparent !important; /* override bootstrap */
+  text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+
+.btn.btn-image-bg:hover,
+.btn.btn-image-bg:focus {
+  filter: brightness(1.05);
+  color: #fff !important;
+}
+
+.btn.btn-image-bg:active {
+  filter: brightness(0.95);
+}
+
+/* Float signup button: flexible width with fixed aspect ratio using one image */
+#btn-float-signup {
+  /* Keep the source image aspect ratio (width / height). Adjust if the PNG changes. */
+  aspect-ratio: 1000 / 179; /* ~5.586 */
+
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;            /* grows with text */
+  height: auto;           /* derived from aspect-ratio */
+  box-sizing: border-box; /* include padding in width calc */
+  line-height: 1;
+  padding: 0 4rem;     /* horizontal breathing room for text */
+  background: url('/assets/img/FloatButton_small.png') no-repeat center / 100% 100% !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: transparent !important; /* override bootstrap */
+  box-shadow: none !important;
+  color: #fff !important;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.35);
+  white-space: nowrap;     /* keep on one line; width will expand */
+  transition: filter 0.15s ease-in-out, transform 0.05s ease-in-out;
+  float: right;            /* align to the right within text flow */
+}
+
+#btn-float-signup:hover,
+#btn-float-signup:focus {
+  filter: brightness(1.25);
+  color: #fff !important;
+}
+
+#btn-float-signup:active {
+  filter: brightness(0.95);
+  transform: translateY(1px);
+}
