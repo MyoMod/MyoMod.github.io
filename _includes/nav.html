@@ -1,19 +1,46 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-    <div class="container px-4 px-lg-5">
-        <h1>
-            <a class="navbar-brand" href="index.html#page-top">
-              <img src="assets/img/MyoMod_basic_transparent.png" alt="{{ site.title }}" />
-            </a>
-          </h1>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                {% for item in site.data.menus.header  %}
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
+  <div class="container px-4 px-lg-5">
+    <h1>
+      <a class="navbar-brand" href="index.html#page-top">
+        <img
+          src="assets/img/MyoMod_basic_transparent.png"
+          alt="{{ site.title }}"
+        />
+      </a>
+    </h1>
+    <button
+      class="navbar-toggler navbar-toggler-right"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarResponsive"
+      aria-controls="navbarResponsive"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ms-auto my-2 my-lg-0">
+        {% assign lang = page.lang | default: 'en' %} {% if lang == 'de' %} {%
+        assign menu = site.data.menus.header_de %} {% else %} {% assign menu =
+        site.data.menus.header %} {% endif %} {% for item in menu %}
+        <li class="nav-item">
+          <a
+            class="nav-link js-scroll-trigger"
+            href="{{ item.url | relative_url }}"
+            >{{ item.title }}</a
+          >
+        </li>
+        {% endfor %}
+      </ul>
+      <ul class="navbar-nav ms-auto my-2 my-lg-0">
+        <li class="nav-item language-switcher">
+          <a class="nav-link" href="/index.html" title="English">🇺🇸</a>
+        </li>
+        <li class="nav-item language-switcher">
+          <a class="nav-link" href="/index.de.html" title="Deutsch">🇩🇪</a>
+        </li>
+      </ul>
     </div>
+  </div>
 </nav>

@@ -10,3 +10,8 @@
 section#image-intro {
   padding-top: 2rem; /* was inherited from .page-section (larger) */
 }
+
+/* Reduce spacing between flags for languages */
+.language-switcher a {
+  padding: 0 0.2rem !important; /* Adjust as needed */
+}

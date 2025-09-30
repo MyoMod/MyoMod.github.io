@@ -3,11 +3,21 @@
 # However on github-pages custom plugins are disabled, and the script doesn't
 # run. So please, fill in any custom menu entry here.
 header:
-- title: Our Mission
-  url: /#about
-- title: Milestones
-  url: /#timeline
-- title: We are
-  url: /#members
-- title: Contacts
-  url: /#contacts
+  - title: Our Mission
+    url: /#about
+  - title: Milestones
+    url: /#timeline
+  - title: We are
+    url: /#members
+  - title: Contacts
+    url: /#contacts
+
+header_de:
+  - title: Unsere Mission
+    url: /index.de.html#about
+  - title: Meilensteine
+    url: /index.de.html#timeline
+  - title: Wir sind
+    url: /index.de.html#members
+  - title: Kontakt
+    url: /index.de.html#contacts
