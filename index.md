@@ -1,7 +1,7 @@
 ---
 layout: home
 header:
-  title: A prosthesis platform made for the community
+  title: Affordable high-tech Prostheses
   text: >
     MyoMod is a startup based in Germany, dedicated to making advanced myoelectric hand prosthesis accessible to as many people as possible worldwide. For this we focus on frugal innovation and revolutional ideas. 
   action: # action button is optional

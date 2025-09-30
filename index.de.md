@@ -2,7 +2,7 @@
 layout: home
 lang: de
 header:
-  title: Eine Prothesenplattform für die Gemeinschaft
+  title: Bezahlbare High-Tech Prothesen
   text: >
     MyoMod ist ein Startup mit Sitz in Deutschland, das sich dafür einsetzt, fortschrittliche myoelektrische Handprothesen weltweit möglichst vielen Menschen zugänglich zu machen. Dafür setzen wir auf frugale Innovation und revolutionäre Ideen.
   action:
